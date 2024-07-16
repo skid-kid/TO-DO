@@ -1,5 +1,5 @@
 const mongoose=require("mongoose");
-mongoose.connect("mongodb+srv://huehue:12345678910@cluster0.pxzhocv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
+mongoose.connect("mongodb+srv://@cluster0.pxzhocv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 const todoSchema=mongoose.Schema({
     title:String,
     description: String,
